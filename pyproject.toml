@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nlp-intro"
+version = "0.1.0"
+description = "NLP Introduction"
+authors = ["Carlos Morales <camorales@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.2.5"
+numpy = "1.26.4"
+scikit-learn = "^1.5.2"
+nltk = "^3.9.1"
+spacy = ">=3.0,<3.7"
+sentence-transformers = "^3.1.1"
+bertopic = "^0.16.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
