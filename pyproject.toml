@@ -15,6 +15,9 @@ nltk = "^3.9.1"
 spacy = ">=3.0,<3.7"
 sentence-transformers = "^3.1.1"
 bertopic = "^0.16.3"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-chroma = "^0.1.4"
 
 
 [build-system]
